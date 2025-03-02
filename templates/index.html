@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конвертація DOCX у JSON</title>
+</head>
+
+<body>
+    <h2>Завантажити DOCX для конвертації у JSON</h2>
+    <form id="uploadForm">
+        <input type="file" id="fileInput" accept=".docx" required>
+        <button type="submit">Завантажити</button>
+    </form>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
